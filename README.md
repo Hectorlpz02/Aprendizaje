@@ -1,7 +1,10 @@
 # Aprendizaje
-Este comando es para copiar
+Para ponerlo la opcion de copiar lo de abajo
 ```bash
 ls
+```
+Para poner un linea horizontal
+---
 
-''' bash
-ls
+Para poner imagenes
+![Texto descriptivo](nombre-de-la-imagen.png)
