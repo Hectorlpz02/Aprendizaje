@@ -12,8 +12,7 @@ Hay varios tipos:
 
 
 # Modelo OSI
-Es un modelo de referencia que se puede utilizar para describir y definir la comunicación entre sistemas. Tiene 7 capas, durante la transmision cada capa añade una cabecera que controla e identifica el paquete (`Encapsulacion`).
-Capas:
+Es un modelo de referencia que se puede utilizar para describir y definir la comunicación entre sistemas. Tiene 7 capas, durante la transmision cada capa añade una cabecera que controla e identifica el paquete (`Encapsulacion`).<br>Capas:
 <pre>
     7.Aplicación - Controla la entrada y salida de datos y proporciona las funciones de la aplicación.
     6.Presentación - Transferir la presentación de datos
@@ -28,8 +27,7 @@ Capas:
 
 
 # Modelo TCP/IP
-Es un protocolo de comunicacion que permite a los host conectarse a Internet. Representa `Transmission Control Protocol (TCP)` de la capa 4 de OSI y `Internet Protocol (IP)` de la capa 3 de OSI. Tiene 4 capas.
-Capas:
+Es un protocolo de comunicacion que permite a los host conectarse a Internet. Representa `Transmission Control Protocol (TCP)` de la capa 4 de OSI y `Internet Protocol (IP)` de la capa 3 de OSI. Tiene 4 capas.<br>Capas:
 <pre>
     4.Aplicacion - Permite que las aplicaciones accedan a los servicios de las otras capas y define los protocolos que las aplicaciones utilizan para intercambiar datos. 
     3.Transporte - responsable de proporcionar servicios de sesión (TCP) y datagramas (UDP) para la capa de aplicación. 
