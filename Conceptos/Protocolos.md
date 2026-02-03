@@ -1,13 +1,30 @@
 # Protocolo ARP
 Se utiliza para resolver una dirección IP de la capa de Red (Capa 3) en un direccion MAC de capa de enlace (Capa 2).
 
-<h3>Solicitud ARP</h3><br>
+<h3>Solicitud ARP</h3>
 Cuando un dispositivo desea comunicarse con otro en una LAN, envía una solicitud ARP para convertir la dirección IP del dispositivo de destino en su dirección MAC. La solicitud se transmite a todos los dispositivos de la LAN y contiene la dirección IP del dispositivo de destino. El dispositivo con la dirección IP coincidente responde con su dirección MAC. 
 
-<h3>Respuesta de ARP</h3><br>
+<h3>Respuesta de ARP</h3>
 Cuando un dispositivo recibe una solicitud ARP, envía una respuesta ARP al dispositivo solicitante con su dirección MAC. El mensaje de respuesta contiene las direcciones IP y MAC tanto del dispositivo solicitante como del dispositivo que responde. 
 
 <hr style="height:5px; border:none; color:#333; background-color:#333;" /> 
+
+
+# Protocolo de mensajes de control de Internet ( ICMP)
+Protocolo que usan los dispositivos para comunicarse entre sí en Internet para la notificación de errores y la informaciópn de estado.
+<h3>Solicitudes ICMP</h3>
+Mensaje que envia un dispositivo a otro para solicitar información, por ejemplo, ping prueba la conectividad entre dos dispositivos.
+
+En el encabezado de un paquete iCMP viaja en TTL (tiempo de vida del paquete en la red)
+
+<hr style="height:5px; border:none; color:#333; background-color:#333;" /> 
+
+
+# VoIP
+Es voz sobre Protocolo de Internet, es un método de transmisión de voz y comunicación multimiedia, por ejemplo, llamadas telefónicas mendiante una conexión a internet como WhatsApp
+
+<hr style="height:5px; border:none; color:#333; background-color:#333;" /> 
+
 
 ## Tabla de Protocolos y Puertos Comunes TCP
 
@@ -50,6 +67,8 @@ Cuando un dispositivo recibe una solicitud ARP, envía una respuesta ARP al disp
 
 
 <hr style="height:5px; border:none; color:#333; background-color:#333;" /> 
+
+
 
 ## Tabla de Protocolos y Puertos Comunes UDP
 
